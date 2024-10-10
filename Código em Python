@@ -1,0 +1,4 @@
+print ("ola mundo")
+nome = "matheus"
+print (" bem vindo " + nome)
+print ("como posso lhe ajudar")
