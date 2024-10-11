@@ -1,14 +1,29 @@
 print ("lanchonete do sul") 
-nome = "matheus"
-print (" bem vindo a lanchonete do sul " + nome)
+print (" bem vindo a lanchonete do sul ")
 print ("o que gostaria de comer?")
 print ("temos muitas opções, veja")
-print ("hamburguer")
-print ("batata-frita")
-print ("cachorro-quente")
-print ("pastel")
-print ("crepe")
-print ("coxinha")
-print ("pão de queijo")
+print ("1  hamburguer")
+print ("2 batata-frita")
+print ("3 cachorro-quente")
+print ("4 pastel")
+print ("5 crepe")
+print ("6 coxinha")
+print ("7 pão de queijo")
 
-escolha = input ("escolha uma opção: hamburguer,batata-frita,cachorro-quente,pastel,crepe,coxinha,pão de queijo")
+escolha = input ("digite aqui o número de sua escolha para comer")
+
+if escolha == "1":
+  print ("boa escolha, é o de sempre né")
+elif escolha == "2":
+   print ("2 ótima escolha, é crocante saboroso")
+elif escolha == "3":
+   print ("ótima escolha, um clássico")
+elif escolha =="4":
+   print ("magnífica escolha, saboroso demais")
+elif escolha == "5":
+   print ("muito boa escolha, é bom algo difeente")
+elif escolha == "6":
+   print ("excelente escolha, essa não tem erro")
+elif escolha == "7":
+   print ("maravilha de escolha, esse trem é bom hein")
+
