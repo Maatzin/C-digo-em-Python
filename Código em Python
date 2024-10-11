@@ -1,4 +1,14 @@
-print ("ola mundo")
+print ("lanchonete do sul") 
 nome = "matheus"
-print (" bem vindo " + nome)
-print ("como posso lhe ajudar")
+print (" bem vindo a lanchonete do sul " + nome)
+print ("o que gostaria de comer?")
+print ("temos muitas opções, veja")
+print ("hamburguer")
+print ("batata-frita")
+print ("cachorro-quente")
+print ("pastel")
+print ("crepe")
+print ("coxinha")
+print ("pão de queijo")
+
+escolha = input ("escolha uma opção: hamburguer,batata-frita,cachorro-quente,pastel,crepe,coxinha,pão de queijo")
